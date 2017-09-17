@@ -1,0 +1,43 @@
+webTerm {
+    all: initial;
+    * {
+        all: unset;
+    }
+}
+
+webTerm {
+    position: fixed;
+    width: 80%;
+    height: 60%;
+    bottom: 20px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+    z-index: 10000;
+    box-shadow: 0px 0px 20px 2px #000000;
+    background-color: black;
+    will-change: opacity;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+    font-size: 12px;
+    letter-spacing: normal;
+}
+
+webTerm.termVisible {
+    transition: .2s linear all;
+    opacity: 0.85;
+}
+
+webTerm.termHidden {
+    transition: .2s linear all;
+    bottom: -60%;
+    opacity: 0;
+    pointer-events: none
+}
+
+webTerm .xterm {
+    line-height: 15px;
+}
