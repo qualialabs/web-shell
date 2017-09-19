@@ -1,6 +1,6 @@
 Package.describe({
   name: 'qualia:web-shell',
-  version: '0.0.5',
+  version: '0.0.6',
   summary: 'Meteor shell access in the browser',
   git: 'https://github.com/qualialabs/web-shell',
   documentation: 'README.md',
@@ -21,6 +21,7 @@ Package.onUse(function(api) {
     'spacebars-compiler',
     'templating',
     'blaze',
+    'reactive-var',
     'meteorhacks:picker@1.0.3',
   ], ['client', 'server']);
 
