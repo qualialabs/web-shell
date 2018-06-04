@@ -11,7 +11,7 @@ This package is only available for your development builds
 
 ## Features
 
-- Supports code autocompletion
+- Supports code autocompletion (Press Tab)
 - Supports highlighting
-- Supports history of commands
+- Supports history of commands (Arrow Up)
 
